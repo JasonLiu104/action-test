@@ -42,7 +42,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Init rep 
-        run: npm ci
+        run: npm run ci
 
       # Runs a set of commands using the runners shell
       - name: Run test

@@ -34,12 +34,6 @@ jobs:
       - name: Install git 
         run: sudo apt-get install git
 
-      - name: Run set env name
-        run: git config --global user.name "JasonLiu104"
-
-      - name: Run set env email
-        run: git config --global user.email "jason.liu@104.com.tw"
-
       # Runs a single command using the runners shell
       - name: Init rep 
         run: npm ci

@@ -32,8 +32,8 @@ jobs:
           cache: 'npm'
 
       - name: Install git 
-        run: sudo yum install git-all
-        
+        run: sudo npm install git-all
+
       - name: Run set env
         run: git config --local user.name "JasonLiu104"
              git config --local user.email "jason.liu@104.com.tw"

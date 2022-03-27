@@ -6,6 +6,8 @@ npm run build
 # 移動至到打包後的dist目錄 
 cd dist
 git init 
+git config --local user.email JasonLiu104
+git config --local user.name jason.liu@104.com.tw
 git remote add origin https://github.com/JasonLiu104/action-test
 git checkout -b gh-pages
 git add --all

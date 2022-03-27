@@ -6,7 +6,6 @@
     "build": "vite build",
     "preview": "vite preview --port 5050",
     "test:unit": "vitest --environment jsdom",
-    "deploy": "sh ./deploy.sh"
   },
   "dependencies": {
     "vue": "^3.2.31"

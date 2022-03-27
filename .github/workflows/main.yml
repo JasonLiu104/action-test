@@ -55,5 +55,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           # github will auto-generate a token for this job and use it 
-          github_token: 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
+          github_token: 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
           publish_dir: ./dist
